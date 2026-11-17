@@ -1,5 +1,6 @@
 # AIGenProject
 
+
 Web app chạy local dùng Claude Agent SDK (Python) để nghiên cứu các lĩnh vực — tài chính, công nghệ thông tin, phát triển phần mềm, AI, game, và bất kỳ lĩnh vực mới nào — rồi lưu kiến thức thành file `.md` trong `knowledge/`, đồng thời tạo/cập nhật agent và skill trong `.claude/`. Nội dung chưa chắc chắn không được ghi thẳng vào kho mà chờ bạn duyệt trên giao diện.
 
 ## Cấu trúc thư mục
