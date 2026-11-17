@@ -14,7 +14,7 @@
       else if (v === true) n.setAttribute(k, '');
       else n.setAttribute(k, v);
     }
-    for (const c of children.flat()) if (c != null) n.append(c.nodeType ? c : document.createTextNode(String(c)));
+    for (const c of children.flat(Infinity)) if (c != null) n.append(c.nodeType ? c : document.createTextNode(String(c)));
     return n;
   };
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -246,7 +246,7 @@
     let last = null;
     current = sse(path, body, (ev) => {
       last = ev; log.event(ev);
-      if (ev.type === 'done' || ev.type === 'error') { setBusy(false); $('#stopBtn').hidden = true; }
+      // Không mở khoá ở đây: phiên có subagent chạy nền có thể phát nhiều `done` trước khi stream đóng.
     });
     try {
       await current.done;

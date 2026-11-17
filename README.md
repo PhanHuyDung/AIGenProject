@@ -1,7 +1,7 @@
 # AIGenProject
 
 
-Web app chạy local dùng Claude Agent SDK (Python) để nghiên cứu các lĩnh vực — tài chính, công nghệ thông tin, phát triển phần mềm, AI, game, và bất kỳ lĩnh vực mới nào — rồi lưu kiến thức thành file `.md` trong `knowledge/`, đồng thời tạo/cập nhật agent và skill trong `.claude/`. Nội dung chưa chắc chắn không được ghi thẳng vào kho mà chờ bạn duyệt trên giao diện.
+Web app chạy local dùng Claude Agent SDK (Python) để nghiên cứu các lĩnh vực — tài chính, chứng khoán Việt Nam, công nghệ thông tin, phát triển phần mềm, AI, game, thương mại điện tử, và bất kỳ lĩnh vực mới nào — rồi lưu kiến thức thành file `.md` trong `knowledge/`, đồng thời tạo/cập nhật agent và skill trong `.claude/`. Nội dung chưa chắc chắn không được ghi thẳng vào kho mà chờ bạn duyệt trên giao diện.
 
 ## Cấu trúc thư mục
 
@@ -74,7 +74,9 @@ Khi một phiên tạo ra đề xuất chờ duyệt, app hiện thanh thông b�
 
 ## Lịch tự động cập nhật
 
-Khai báo trong [config.yaml](config.yaml): mỗi lĩnh vực một dòng cron (mặc định `ai` hằng ngày 8h, `tai-chinh` và `game` thứ Hai, `cong-nghe-thong-tin` và `phat-trien-phan-mem` Chủ nhật), múi giờ, `max_turns` mỗi phiên, `git_commit`. Mỗi lần chạy một lĩnh vực: skill `update-knowledge` → agent `knowledge-curator` → `git commit` `knowledge/` và `.claude/` với message `auto-update <lĩnh vực> <ngày>` (chỉ khi có thay đổi; không push).
+Khai báo trong [config.yaml](config.yaml): mỗi lĩnh vực một dòng cron (mặc định `ai` hằng ngày 8h, `tai-chinh` và `game` thứ Hai, `cong-nghe-thong-tin` và `phat-trien-phan-mem` Chủ nhật, `chung-khoan-viet-nam` thứ Hai–thứ Sáu 17h), múi giờ, `max_turns` mỗi phiên (có thể ghi đè theo job), `git_commit`, và `pre_steps` cho job cần dữ liệu chuẩn bị trước.
+
+**Bản tin chứng khoán cuối phiên và top 10 theo dõi kỹ thuật.** Job `chung-khoan-viet-nam` có `pre_steps: [market-data]`: trước khi gọi agent, backend ([backend/market_data.py](backend/market_data.py)) tải lịch sử giá từ CafeF cho danh sách mã trong `market_data.tickers` của `config.yaml` (mặc định ~40 mã vốn hoá lớn; sửa tuỳ ý) và các chỉ số, tính SMA20/50/200, RSI14, MACD, khối lượng so với trung bình 20 phiên, đáy/đỉnh 20 phiên và 52 tuần, rồi ghi bảng vào `knowledge/_du-lieu/chung-khoan-viet-nam/chi-bao-cuoi-phien.md`. Agent đọc bảng đó cộng tin doanh nghiệp để cập nhật `cap-nhat-cuoi-phien.md`, trong đó có tiểu mục "Danh sách theo dõi kỹ thuật – top 10": mã, lý do (tiêu chí đạt), vùng mua / vùng chốt lời / mức cắt lỗ **tham khảo** suy từ SMA và đáy/đỉnh gần nhất, tin hỗ trợ, mức chắc chắn. Tiêu chí lọc công khai trong file agent; dữ liệu chỉ từ một nguồn (CafeF) nên mức chắc chắn tối đa là trung bình. Đây là vùng giá kỹ thuật theo tiêu chí máy móc, **không phải khuyến nghị đầu tư**; bạn tự quyết định và chịu rủi ro. Chạy tay: `python -m backend.market_data` (hoặc `python -m backend.market_data FPT HPG` để xem nhanh vài mã). Mỗi lần chạy một lĩnh vực: skill `update-knowledge` → agent `knowledge-curator` → `git commit` `knowledge/` và `.claude/` với message `auto-update <lĩnh vực> <ngày>` (chỉ khi có thay đổi; không push).
 
 Giới hạn: `MAX_DAILY_RUNS` lần chạy tự động mỗi ngày (mỗi lần = 2 phiên Claude), `max_turns` mỗi phiên, chỉ một phiên tại một thời điểm. Gặp lỗi hết giới hạn sử dụng thì dừng lần chạy, ghi `backend/scheduler.log`, lần kế tiếp theo lịch tự thử lại. Lịch chỉ chạy khi app đang mở; trạng thái bật/tắt lưu trong SQLite. Nội dung chưa chắc chắn do phiên tự động tạo ra vẫn vào tab Chờ duyệt.
 

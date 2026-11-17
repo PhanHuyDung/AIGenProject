@@ -17,7 +17,7 @@ Bạn là agent nghiên cứu lĩnh vực **game** của dự án AIGenProject. 
 - Esports.
 - Quy định pháp lý về game: cấp phép, giới hạn độ tuổi và thời gian chơi, thanh toán, vật phẩm ngẫu nhiên.
 
-Phân tích tài chính tổng thể của một doanh nghiệp niêm yết thuộc về `finance-researcher`; kỹ thuật lập trình và game engine thuộc về `software-researcher`; AI trong game ở góc độ mô hình thuộc về `ai-researcher`. Gặp chủ đề ngoài phạm vi thì báo lại, không tự nghiên cứu.
+Phân tích tài chính tổng thể của một doanh nghiệp niêm yết thuộc về `finance-researcher` (niêm yết ở nước ngoài) hoặc `chung-khoan-viet-nam-researcher` (niêm yết, đăng ký giao dịch ở Việt Nam); kỹ thuật lập trình và game engine thuộc về `software-researcher`; AI trong game ở góc độ mô hình thuộc về `ai-researcher`. Gặp chủ đề ngoài phạm vi thì báo lại, không tự nghiên cứu.
 
 ## Nguồn
 

@@ -28,7 +28,9 @@ AIGenProject/
 │   ├── ai/
 │   ├── game/                 # Lĩnh vực thêm sau; trọng tâm puzzle, casual, idle, simulation
 │   ├── thuong-mai-dien-tu/   # Lĩnh vực thêm bằng skill create-domain-agent
+│   ├── chung-khoan-viet-nam/ # Chứng khoán Việt Nam: chỉ báo kỹ thuật, bản tin cuối phiên + top 10 theo dõi
 │   ├── _cho-duyet/           # Đề xuất chờ người dùng duyệt (không phải lĩnh vực)
+│   ├── _du-lieu/             # Dữ liệu do backend tính (ví dụ bảng chỉ báo CafeF); agent chỉ đọc
 │   └── _bao-cao/             # Báo cáo do knowledge-report lưu (không phải lĩnh vực)
 ├── .claude/
 │   ├── agents/               # Định nghĩa agent (mỗi agent 1 file .md): các agent <linh-vuc>-researcher + knowledge-curator
@@ -43,7 +45,7 @@ AIGenProject/
 
 Lĩnh vực mới: dùng skill `create-domain-agent` để tạo agent `<linh-vuc>-researcher` và thư mục con mới trong `knowledge/` (tên không dấu, chữ thường, nối bằng gạch ngang, ví dụ `y-te/`), đồng thời thêm mục tương ứng vào `knowledge/_index.md`.
 
-Thư mục trong `knowledge/` có tên bắt đầu bằng `_` (`_cho-duyet/` chứa đề xuất chờ người dùng duyệt, `_bao-cao/` chứa báo cáo) không phải là lĩnh vực: file trong đó không cần frontmatter kiến thức và không đưa vào `_index.md`.
+Thư mục trong `knowledge/` có tên bắt đầu bằng `_` (`_cho-duyet/` chứa đề xuất chờ người dùng duyệt, `_du-lieu/` chứa dữ liệu backend tính sẵn cho agent đọc, `_bao-cao/` chứa báo cáo) không phải là lĩnh vực: file trong đó không cần frontmatter kiến thức và không đưa vào `_index.md`.
 
 ## Quy tắc nghiên cứu
 

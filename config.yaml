@@ -20,3 +20,19 @@ scheduler:
       cron: "0 8 * * sun"      # Chủ nhật 8h
     - domain: phat-trien-phan-mem
       cron: "0 9 * * sun"      # Chủ nhật 9h
+    - domain: chung-khoan-viet-nam
+      cron: "0 17 * * mon-fri" # thứ Hai–thứ Sáu 17h, khi báo chí đã đăng bản tin cuối phiên; cập nhật cap-nhat-cuoi-phien.md + top 10 theo dõi
+      label: "bản tin cuối phiên"
+      max_turns: 60            # phiên dài hơn mặc định vì phải đọc bảng chỉ báo và chọn top 10
+      pre_steps: [market-data] # backend tải giá CafeF và tính chỉ báo trước khi gọi agent
+
+# Dữ liệu chỉ báo kỹ thuật do backend tính (pre-step market-data). Nguồn giá: CafeF (một nguồn, không chính thức).
+market_data:
+  output: knowledge/_du-lieu/chung-khoan-viet-nam/chi-bao-cuoi-phien.md
+  history_days: 260
+  indices: [VNINDEX, VN30INDEX, HNX-INDEX, UPCOM-INDEX]
+  # Danh sách mã được quét (không phải toàn thị trường). Sửa tuỳ ý; nên giữ các mã thanh khoản cao.
+  # Endpoint CafeF này chỉ trả dữ liệu cho mã HOSE (mã HNX như SHS, PVS trả rỗng, kiểm tra 2026-11-17).
+  tickers: [VIC, VHM, VRE, VNM, VCB, BID, CTG, TCB, MBB, VPB, ACB, HDB, STB, TPB, VIB, LPB, SHB,
+            HPG, FPT, MWG, MSN, SAB, GAS, PLX, POW, SSI, VND, VCI, HCM, GVR, BCM, VJC, PNJ, REE,
+            DGC, KDH, NLG, DXG, BVH]

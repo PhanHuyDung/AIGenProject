@@ -19,7 +19,7 @@ from .agent_core import is_path_allowed, read_frontmatter
 
 STALE_DAYS = 90
 WRITABLE_SUFFIXES = {".md", ".yaml", ".yml", ".json", ".txt"}
-SYSTEM_DIRS = {"_cho-duyet", "_bao-cao"}
+SYSTEM_DIRS = {"_cho-duyet", "_bao-cao", "_du-lieu"}
 
 
 def roots() -> dict[str, Path]:

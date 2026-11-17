@@ -40,6 +40,11 @@ class Job:
     domain: str
     cron: str
     label: str = ""
+    max_turns: int | None = None          # ghi đè scheduler.max_turns cho job này
+    pre_steps: list[str] = field(default_factory=list)  # ví dụ ["market-data"]
+
+
+PRE_STEPS: dict[str, str] = {"market-data": "Tải giá CafeF và tính chỉ báo kỹ thuật (backend/market_data.py)"}
 
 
 @dataclass
@@ -86,7 +91,19 @@ def load_config(path: Path) -> SchedulerConfig:
         if known and domain not in known:
             conf.warnings.append(f"Lĩnh vực '{domain}' chưa có agent *-researcher; bỏ qua job.")
             continue
-        conf.jobs.append(Job(domain=domain, cron=cron, label=str(raw.get("label", "") or "")))
+        mt = raw.get("max_turns")
+        try:
+            mt = max(1, int(mt)) if mt is not None else None
+        except (TypeError, ValueError):
+            conf.warnings.append(f"max_turns của {domain} không phải số, dùng mặc định.")
+            mt = None
+        steps = [str(s) for s in (raw.get("pre_steps") or [])]
+        bad = [s for s in steps if s not in PRE_STEPS]
+        if bad:
+            conf.warnings.append(f"pre_steps không hợp lệ của {domain}: {bad}; hỗ trợ: {sorted(PRE_STEPS)}")
+            steps = [s for s in steps if s in PRE_STEPS]
+        conf.jobs.append(Job(domain=domain, cron=cron, label=str(raw.get("label", "") or ""),
+                             max_turns=mt, pre_steps=steps))
     return conf
 
 
@@ -248,12 +265,25 @@ class AutoUpdater:
         except Exception as exc:  # HTTPException từ RunLock
             return await skip(f"Không lấy được khoá: {exc}")
 
-        turns = min(self.config.max_turns, self.settings.max_turns)
+        job = next((j for j in self.config.jobs if j.domain == domain), None)
+        turns = min(job.max_turns or self.config.max_turns, self.settings.max_turns) if job else min(self.config.max_turns, self.settings.max_turns)
         run_id = await store.create_auto_run(domain, trigger)
-        self.current = {"id": run_id, "domain": domain, "trigger": trigger, "step": "update"}
+        self.current = {"id": run_id, "domain": domain, "trigger": trigger, "step": "pre"}
         log.info("[%s] bắt đầu (%s), run %s, max_turns=%d", domain, trigger, run_id, turns)
         status, message, commit_hash = "done", "", None
+        pre_notes: list[str] = []
         try:
+            # 0. Bước chuẩn bị (không gọi Claude), lỗi thì vẫn chạy tiếp nhưng ghi lại.
+            for step in (job.pre_steps if job else []):
+                await store.update_auto_run(run_id, step="pre:" + step)
+                try:
+                    note = await asyncio.to_thread(self._run_pre_step, step)
+                    pre_notes.append(f"{step}: {note}")
+                    log.info("[%s] pre-step %s: %s", domain, step, note)
+                except Exception as exc:  # noqa: BLE001
+                    pre_notes.append(f"{step}: LỖI {exc}")
+                    log.error("[%s] pre-step %s lỗi: %s", domain, step, exc)
+
             # 1. update-knowledge
             await store.update_auto_run(run_id, step="update")
             ok, msg, sid = await self._consume(
@@ -284,6 +314,8 @@ class AutoUpdater:
                 message = msg
             else:
                 message = "Bỏ qua git commit (git_commit: false)."
+            if pre_notes:
+                message = "; ".join(pre_notes) + " | " + message
             log.info("[%s] xong: %s", domain, message)
         except _StepFailed as exc:
             status, message = "error", f"Lỗi ở bước {exc.step}: {exc.message}"
@@ -302,6 +334,15 @@ class AutoUpdater:
             self.current = None
             await store.update_auto_run(run_id, status=status, message=message, commit_hash=commit_hash)
         return {"id": run_id, "domain": domain, "status": status, "message": message, "commit_hash": commit_hash}
+
+    def _run_pre_step(self, step: str) -> str:
+        if step == "market-data":
+            from .market_data import build_market_data, load_market_config
+
+            s = build_market_data(load_market_config(self.config_path))
+            rel = s["output"].relative_to(cfg.PROJECT_ROOT).as_posix() if s["output"].is_relative_to(cfg.PROJECT_ROOT) else str(s["output"])
+            return f"đã ghi {rel}, phiên {s['latest_date']}, {s['ok']} mã/chỉ số, {s['failed']} lỗi"
+        raise ValueError(f"pre-step không hỗ trợ: {step}")
 
     async def _consume(self, stream) -> tuple[bool, str, str | None]:
         """Chạy hết một stream sự kiện. Trả về (thành công, thông điệp, session_id)."""
