@@ -42,9 +42,15 @@ Dự án dùng tài khoản Claude đã đăng nhập (`claude login`), **không
 
 ## Chạy web app
 
+Cách nhanh nhất trên Windows: nháy đúp **`run.bat`** ở gốc dự án. File này tự tạo `.venv` và cài thư viện nếu chưa có, tạo `.env` từ mẫu, chạy kiểm tra môi trường (`backend/cli.py --check`), mở trình duyệt và khởi động server; đóng cửa sổ (hoặc `Ctrl+C`) là tắt app. Lần đầu cần đã `claude login`.
+
+Chạy tay (mọi hệ điều hành), sau khi kích hoạt `.venv`:
+
 ```
-uvicorn backend.main:app --reload --port 8000
+uvicorn backend.main:app --port 8000
 ```
+
+Không dùng `--reload` khi chạy lâu dài: mỗi lần agent ghi file trong thư mục dự án, uvicorn sẽ khởi động lại và cắt ngang phiên đang chạy.
 
 Mở <http://127.0.0.1:8000>. App chỉ lắng nghe `127.0.0.1`, từ chối header `Host` lạ, không có đăng nhập web; không mở ra mạng. Tài liệu API ở `/docs`.
 
