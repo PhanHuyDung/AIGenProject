@@ -1,0 +1,11 @@
+claude-agent-sdk>=0.2.183
+fastapi
+uvicorn
+python-dotenv
+apscheduler
+aiosqlite
+pyyaml
+
+# kiem thu
+pytest
+httpx

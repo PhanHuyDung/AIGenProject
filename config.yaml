@@ -1,0 +1,22 @@
+# Lịch tự động cập nhật kiến thức (APScheduler, chạy cùng FastAPI).
+# Mỗi lần chạy một lĩnh vực: skill update-knowledge → agent knowledge-curator → git commit knowledge/ và .claude/.
+# Giới hạn số lần chạy tự động mỗi ngày: MAX_DAILY_RUNS trong .env. Số lượt mỗi phiên: max_turns bên dưới.
+# Bật/tắt trên giao diện (tab "Lịch tự động"); trạng thái bật/tắt lưu trong SQLite, giá trị dưới chỉ là mặc định lần đầu.
+
+scheduler:
+  enabled: true
+  timezone: Asia/Ho_Chi_Minh
+  max_turns: 30          # số lượt tối đa cho mỗi phiên tự động (không vượt MAX_TURNS trong .env)
+  git_commit: true       # tự commit knowledge/ và .claude/ sau khi cập nhật
+  jobs:
+    # cron: phút giờ ngày tháng thứ (0 = Chủ nhật ... 6 = Thứ bảy; hoặc mon, tue, ...)
+    - domain: ai
+      cron: "0 8 * * *"        # hằng ngày 8h
+    - domain: tai-chinh
+      cron: "0 7 * * mon"      # thứ Hai 7h
+    - domain: game
+      cron: "0 9 * * mon"      # thứ Hai 9h
+    - domain: cong-nghe-thong-tin
+      cron: "0 8 * * sun"      # Chủ nhật 8h
+    - domain: phat-trien-phan-mem
+      cron: "0 9 * * sun"      # Chủ nhật 9h
