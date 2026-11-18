@@ -30,8 +30,9 @@ _Chưa có chủ đề nào._
 
 ## Chứng khoán Việt Nam (`chung-khoan-viet-nam/`)
 
-- [Bản tin cuối phiên thị trường chứng khoán Việt Nam](chung-khoan-viet-nam/cap-nhat-cuoi-phien.md) — Phiên 16/11/2026: VN-Index 1.736,89 điểm (+0,11%) nhờ VIC dù độ rộng âm, thanh khoản HOSE giảm hơn 20%, khối ngoại mua ròng nhẹ; VN-Index dưới SMA20 và SMA50 (agent tự tính từ dữ liệu CafeF) (cập nhật: 2026-11-17, độ chắc chắn: trung bình)
-- [Cấu trúc thị trường cổ phiếu Việt Nam và các chỉ báo phân tích kỹ thuật thường dùng](chung-khoan-viet-nam/phan-tich-ky-thuat-va-chi-bao.md) — VNX, HOSE, HNX, KRX, T+2, lộ trình chuyển cổ phiếu HNX sang HOSE trước 31/12/2026; công thức và giới hạn của MA, RSI, MACD, Bollinger Bands, OBV, hỗ trợ/kháng cự; khả năng đọc các trang dữ liệu bằng công cụ (cập nhật: 2026-11-17, độ chắc chắn: trung bình)
+- [Bản tin cuối phiên thị trường chứng khoán Việt Nam](chung-khoan-viet-nam/cap-nhat-cuoi-phien.md) — Phiên 18/11/2026: VN-Index giảm 23,71 điểm (-1,37%) xuống 1.703,01 điểm, HNX-Index -2,36%, độ rộng HOSE 64 tăng/272 giảm, khối ngoại bán ròng khoảng 1.114 tỷ đồng trên HOSE; VN-Index dưới SMA20 và SMA50 (tự tính); kèm danh sách theo dõi kỹ thuật top 10 (dữ liệu CafeF đến 16/11) (cập nhật: 2026-11-18, độ chắc chắn: trung bình)
+- [Cấu trúc thị trường cổ phiếu Việt Nam và các chỉ báo phân tích kỹ thuật thường dùng](chung-khoan-viet-nam/phan-tich-ky-thuat-va-chi-bao.md) — VNX, HOSE, HNX, KRX, T+2, lịch chuyển cổ phiếu HNX sang HOSE (phiên đầu 28/12/2026 theo thông báo VNX), nâng hạng FTSE Russell từ 21/09/2026, Thông tư 120 và các sửa đổi 68/2024, 18/2025, 08/2026; công thức và giới hạn của MA, RSI, MACD, Bollinger Bands, OBV, hỗ trợ/kháng cự; khả năng đọc các trang dữ liệu bằng công cụ (cập nhật: 2026-11-18, độ chắc chắn: trung bình)
+- [Cổ phiếu BID (BIDV) – giá, kết quả kinh doanh 9 tháng 2026, định giá và bối cảnh kỹ thuật](chung-khoan-viet-nam/co-phieu-bid-bidv.md) — BID đóng cửa 30.400 đồng (-1,94%) phiên 18/11/2026, phiên giảm thứ 5 liên tiếp, lập đáy 52 tuần mới, dưới SMA20/50/200 (CafeF, tự tính); LNTT 9 tháng 2026 khoảng 29.483 tỷ đồng (+24,8%) nhưng nợ xấu tăng 36%, bao phủ còn 73,4%; P/E 6,8, P/B 1,16 theo FireAnt (cập nhật: 2026-11-18, độ chắc chắn: trung bình)
 
 ## Lĩnh vực khác
 

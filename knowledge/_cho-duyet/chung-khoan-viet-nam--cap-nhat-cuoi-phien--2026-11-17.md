@@ -111,3 +111,73 @@ proposed_by: chung-khoan-viet-nam-researcher
   - "Nhóm tác động lên VN-Index theo Vietstock: VIC, MCH, DMX, LPB đóng góp tổng khoảng 11,31 điểm; VCB, VPB, TCB, CTG lấy đi tổng khoảng 3,12 điểm."
 - **Nguồn:** [Vietstock – Nhịp đập Thị trường 16/11](https://vietstock.vn/2026/11/nhip-dap-thi-truong-1611-thanh-khoan-tiep-tuc-can-kiet-vn-index-van-trong-the-giang-co-1636-1515036.htm) — truy cập 2026-11-17
 - **Lý do chưa chắc chắn:** mỗi số chỉ có một nguồn (Vietstock), không phải nguồn chính thức gốc; agent nghiên cứu đã ghi vào file kiến thức, người điều phối (deep-research) chuyển sang đề xuất khi đối chiếu.
+
+## Đề xuất 11 – VN30 đóng cửa phiên 17/11/2026
+
+- **Loại:** thêm
+- **Vị trí:** Chi tiết > Phiên 17/11/2026 > bảng Chỉ số, dòng VN30
+- **Nội dung hiện tại:** "VN30 | chưa có nguồn xác nhận (có đề xuất chờ duyệt) | giảm khoảng 7 điểm (CafeF: -7,12 điểm, -0,39%; TTXVN: 'giảm hơn 7 điểm')"
+- **Nội dung đề xuất:** "VN30 | 1.837,13 | -7,12 điểm (-0,39%) | [CafeF VN30INDEX]; TTXVN: 'giảm hơn 7 điểm'"
+- **Nguồn:** [CafeF – Dữ liệu lịch sử giá VN30INDEX](https://cafef.vn/du-lieu/Ajax/PageNew/DataHistory/PriceHistory.ashx?Symbol=VN30INDEX&StartDate=&EndDate=&PageIndex=1&PageSize=5) — truy cập 2026-11-17; [VietnamPlus](https://www.vietnamplus.vn/vn-index-giam-hon-10-diem-nhom-dau-khi-gay-ap-luc-len-thi-truong-post1148921.vnp) — truy cập 2026-11-17
+- **Lý do chưa chắc chắn:** mức điểm 1.837,13 chỉ có từ một nguồn (CafeF); TTXVN chỉ xác nhận mức giảm "hơn 7 điểm", không nêu mức đóng cửa.
+
+## Đề xuất 12 – UPCoM-Index đóng cửa phiên 17/11/2026
+
+- **Loại:** thêm
+- **Vị trí:** Chi tiết > Phiên 17/11/2026 > bảng Chỉ số, dòng UPCoM-Index
+- **Nội dung hiện tại:** "chưa có nguồn xác nhận (có đề xuất chờ duyệt)"
+- **Nội dung đề xuất:** "UPCoM-Index | 122,5 | +0,37 điểm (+0,30%) | [Đầu tư Chứng khoán]"
+- **Nguồn:** [Đầu tư Chứng khoán – Sắc đỏ chiếm ưu thế, VN-Index giảm hơn 10 điểm trong phiên ngày 17/11](https://www.tinnhanhchungkhoan.vn/sac-do-chiem-uu-the-vn-index-giam-hon-10-diem-trong-phien-ngay-1711-post401574.html) — truy cập 2026-11-17
+- **Lý do chưa chắc chắn:** chỉ một nguồn; dữ liệu CafeF UPCOM-INDEX lúc truy cập chưa có dòng 17/11; các báo khác không nêu UPCoM-Index.
+
+## Đề xuất 13 – Thanh khoản chi tiết phiên 17/11/2026
+
+- **Loại:** thêm
+- **Vị trí:** Chi tiết > Phiên 17/11/2026 > Thanh khoản
+- **Nội dung hiện tại:** "Dữ liệu CafeF cho số khớp lệnh và thoả thuận khác với báo (có đề xuất chờ duyệt)." và "Khối lượng theo sàn, giá trị HNX và UPCoM: chưa có nguồn xác nhận (có đề xuất chờ duyệt)."
+- **Nội dung đề xuất (nêu các phía, chờ người dùng chọn cách ghi):**
+  - Đầu tư Chứng khoán: HOSE khoảng 636,2 triệu đơn vị, 14.961,5 tỷ đồng; giao dịch thoả thuận 5.362 tỷ đồng, trong đó khoảng 74,3 triệu cổ phiếu LPB, gần 2.594 tỷ đồng.
+  - CafeF (dòng VNINDEX ngày 17/11): khớp lệnh 436.923.400 cổ phiếu, 9.579,68 tỷ đồng; thoả thuận 186.369.043 cổ phiếu, 5.039,16 tỷ đồng (tổng tự tính 14.618,84 tỷ đồng, thấp hơn khoảng 343 tỷ đồng so với số 14.961 tỷ đồng của các báo).
+  - CafeF (dòng VN30INDEX ngày 17/11): khớp lệnh 5.339,93 tỷ đồng, thoả thuận 2.997,8 tỷ đồng; TTXVN: giá trị giao dịch VN30 hơn 8.400 tỷ đồng, tăng 28%.
+  - Sài Gòn Giải Phóng: tổng HOSE và HNX khoảng 15.600 tỷ đồng, tăng khoảng 2.700 tỷ đồng so với phiên trước.
+- **Nguồn:** [Đầu tư Chứng khoán](https://www.tinnhanhchungkhoan.vn/sac-do-chiem-uu-the-vn-index-giam-hon-10-diem-trong-phien-ngay-1711-post401574.html); [CafeF VNINDEX](https://cafef.vn/du-lieu/Ajax/PageNew/DataHistory/PriceHistory.ashx?Symbol=VNINDEX&StartDate=&EndDate=&PageIndex=1&PageSize=5); [CafeF VN30INDEX](https://cafef.vn/du-lieu/Ajax/PageNew/DataHistory/PriceHistory.ashx?Symbol=VN30INDEX&StartDate=&EndDate=&PageIndex=1&PageSize=5); [VietnamPlus](https://www.vietnamplus.vn/vn-index-giam-hon-10-diem-nhom-dau-khi-gay-ap-luc-len-thi-truong-post1148921.vnp); [Sài Gòn Giải Phóng](https://www.sggp.org.vn/co-phieu-dau-khi-lao-doc-vn-index-giam-manh-post882266.html) — truy cập 2026-11-17
+- **Lý do chưa chắc chắn:** CafeF và báo lệch nhau về giá trị thoả thuận (5.039,16 so với 5.362 tỷ đồng) và tổng; phạm vi của dòng VNINDEX trên CafeF (chỉ cổ phiếu trong chỉ số hay toàn sàn) chưa rõ; khối lượng, giá trị LPB, số VN30 và số HOSE+HNX mỗi số chỉ một nguồn.
+
+## Đề xuất 14 – Khối ngoại chi tiết phiên 17/11/2026
+
+- **Loại:** thêm
+- **Vị trí:** Chi tiết > Phiên 17/11/2026 > Khối ngoại
+- **Nội dung hiện tại:** "Giá trị bán ròng VCB và thứ tự các mã khác: chưa có nguồn xác nhận (có đề xuất chờ duyệt)." và "HNX, UPCoM và toàn thị trường: chưa có nguồn xác nhận (có đề xuất chờ duyệt)."
+- **Nội dung đề xuất:**
+  - "Toàn thị trường: bán ròng 382,9 tỷ đồng (khoảng 7,3 triệu đơn vị). HNX: bán ròng 13,08 tỷ đồng (mua ròng 0,35 triệu đơn vị về khối lượng); mua ròng nhiều nhất SHS 15,05 tỷ đồng, bán ròng nhiều nhất PVS 18,82 tỷ đồng. UPCoM: bán ròng 10,42 tỷ đồng; mua ròng nhiều nhất TIN 1,03 tỷ đồng, bán ròng nhiều nhất ACV 5,62 tỷ đồng (Đầu tư Chứng khoán)."
+  - "VCB bị bán ròng hơn 102 tỷ đồng (TTXVN)."
+  - Ghi chú phía khác: VnExpress viết khối ngoại bán ròng "tập trung ở MBB, TCB và FPT"; Sài Gòn Giải Phóng nêu FPT, VCB, MBB là các mã bị bán ròng mạnh nhất; Công Luận ghi tổng bán ròng khoảng 352 tỷ đồng.
+- **Nguồn:** [Đầu tư Chứng khoán – Khối ngoại phiên 17/11](https://www.tinnhanhchungkhoan.vn/khoi-ngoai-ban-rong-hon-380-ty-dong-trong-phien-dieu-chinh-ngay-1711-tam-diem-van-la-fpt-post401590.html); [VietnamPlus](https://www.vietnamplus.vn/vn-index-giam-hon-10-diem-nhom-dau-khi-gay-ap-luc-len-thi-truong-post1148921.vnp); [VnExpress](https://vnexpress.net/gan-2-5-von-lpbank-sang-tay-thoa-thuan-trong-mot-phien-5145737.html); [Sài Gòn Giải Phóng](https://www.sggp.org.vn/co-phieu-dau-khi-lao-doc-vn-index-giam-manh-post882266.html); [Công Luận](https://congluan.vn/chung-khoan-hom-nay-17112026-vn-index-giam-hon-10-diem-nhom-ngan-hang-gay-ap-luc-lon-post367828.html) — truy cập 2026-11-17. Tham khảo thêm (tạp chí, có tổng hợp từ nguồn khác): [Thương Trường](https://thuongtruong.com.vn/news/vn-index-mat-hon-10-diem-nhom-dau-khi-va-ngan-hang-gay-suc-ep-172092.html) ghi HNX bán ròng khoảng 13 tỷ đồng, UPCoM khoảng 10 tỷ đồng.
+- **Lý do chưa chắc chắn:** số HNX, UPCoM, toàn thị trường và các mã cụ thể chỉ có từ một báo; thứ tự các mã bị bán ròng mạnh khác nhau giữa các báo; Thương Trường ghi rõ là tổng hợp ("các nguồn khác ghi nhận 358–421 tỷ đồng") nên không tính là nguồn độc lập.
+
+## Đề xuất 15 – Số mã đứng giá phiên 17/11/2026
+
+- **Loại:** thêm
+- **Vị trí:** Chi tiết > Phiên 17/11/2026 > Độ rộng
+- **Nội dung hiện tại:** "số mã đứng giá chưa có nguồn xác nhận (có đề xuất chờ duyệt)" (HOSE và HNX)
+- **Nội dung đề xuất:** "HOSE: 62 mã đứng giá. HNX: 57 mã đứng giá (Sài Gòn Giải Phóng)."
+- **Nguồn:** [Sài Gòn Giải Phóng – Cổ phiếu dầu khí lao dốc, VN-Index giảm mạnh](https://www.sggp.org.vn/co-phieu-dau-khi-lao-doc-vn-index-giam-manh-post882266.html) — truy cập 2026-11-17
+- **Lý do chưa chắc chắn:** chỉ một nguồn.
+
+## Đề xuất 16 – Điểm ảnh hưởng của các mã và biến động ngành phiên 17/11/2026
+
+- **Loại:** thêm
+- **Vị trí:** Chi tiết > Phiên 17/11/2026 > Nhóm ngành và cổ phiếu dẫn dắt
+- **Nội dung hiện tại:** "điểm ảnh hưởng của từng mã: chưa có nguồn xác nhận (có đề xuất chờ duyệt)"
+- **Nội dung đề xuất:** "Theo Thương Trường: VCB lấy đi khoảng 1,88 điểm, GAS khoảng 1,31 điểm, BID khoảng 1,03 điểm của VN-Index. Biến động ngành: năng lượng -3,84%, vật liệu cơ bản -1,84%, công nghệ -1,79%, công nghiệp -1,5%, tài chính -0,69%, bất động sản -0,31%."
+- **Nguồn:** [Thương Trường – VN-Index mất hơn 10 điểm, nhóm dầu khí và ngân hàng gây sức ép](https://thuongtruong.com.vn/news/vn-index-mat-hon-10-diem-nhom-dau-khi-va-ngan-hang-gay-suc-ep-172092.html) — truy cập 2026-11-17
+- **Lý do chưa chắc chắn:** chỉ một nguồn, là tạp chí có tổng hợp số từ nguồn khác; TTXVN chỉ xác nhận năng lượng giảm "hơn 3,8%". Lưu ý: Công Luận ghi bất động sản là nhóm gây áp lực, trong khi Sài Gòn Giải Phóng ghi bất động sản có mã tăng (KDH, HDG) — không mâu thuẫn trực tiếp nhưng cần đọc kỹ.
+
+## Đề xuất 17 – Chi tiết giao dịch thoả thuận LPB ngày 17/11/2026
+
+- **Loại:** thêm
+- **Vị trí:** Chi tiết > Tin doanh nghiệp đáng chú ý > dòng LPB
+- **Nội dung hiện tại:** "Giá thoả thuận và giá trị: chưa có nguồn xác nhận (có đề xuất chờ duyệt)."
+- **Nội dung đề xuất:** "Giá bình quân khoảng 34.600 đồng/cổ phiếu, gần giá sàn, qua khoảng 30 lệnh, mỗi lệnh 2–3 triệu cổ phiếu; luỹ kế từ đầu tháng hơn 410 triệu cổ phiếu, gần 14% vốn, được giao dịch thoả thuận (VnExpress). Giá trị thoả thuận LPB gần 2.594 tỷ đồng (Đầu tư Chứng khoán)."
+- **Nguồn:** [VnExpress – Gần 2,5% vốn LPBank sang tay thỏa thuận trong một phiên](https://vnexpress.net/gan-2-5-von-lpbank-sang-tay-thoa-thuan-trong-mot-phien-5145737.html); [Đầu tư Chứng khoán](https://www.tinnhanhchungkhoan.vn/sac-do-chiem-uu-the-vn-index-giam-hon-10-diem-trong-phien-ngay-1711-post401574.html) — truy cập 2026-11-17
+- **Lý do chưa chắc chắn:** mỗi chi tiết chỉ một nguồn; VnExpress không ghi nguồn dữ liệu; chưa mở được dữ liệu giao dịch thoả thuận của HOSE. VnExpress cũng nêu thị giá LPB 36.700 đồng, chênh với giá thoả thuận 34.600 đồng mà không giải thích.
