@@ -1,8 +1,9 @@
 ---
 target: knowledge/chung-khoan-viet-nam/co-phieu-bid-bidv.md
 created: 2026-11-20
-status: cho-duyet
+status: da-duyet
 proposed_by: chung-khoan-viet-nam-researcher
+decided: 2026-11-20
 ---
 
 ## Đề xuất 1 – Khối lượng, giá mở cửa/cao nhất/thấp nhất phiên 19/11 và 20/11/2026 của BID

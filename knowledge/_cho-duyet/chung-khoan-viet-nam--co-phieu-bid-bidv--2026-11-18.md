@@ -1,8 +1,9 @@
 ---
 target: knowledge/chung-khoan-viet-nam/co-phieu-bid-bidv.md
 created: 2026-11-18
-status: cho-duyet
+status: da-duyet
 proposed_by: chung-khoan-viet-nam-researcher
+decided: 2026-11-20
 ---
 
 ## Đề xuất 1 – Khối lượng và biên độ giá phiên 18/11/2026 của BID

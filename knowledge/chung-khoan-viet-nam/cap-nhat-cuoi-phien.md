@@ -114,6 +114,45 @@ sources:
   - url: https://vsdc.vn/alo/-f-_bsBS4BBXga52z2eexg
     title: VSDC – Tin nghiệp vụ với Tổ chức đăng ký chứng khoán (danh sách thông báo)
     accessed: 2026-11-20
+  - url: https://vietstock.vn/2026/11/vietstock-daily-17112026-chua-thoat-the-giang-co-1636-1515191.htm
+    title: Vietstock – Vietstock Daily 17/11/2026 – Chưa thoát thế giằng co?
+    accessed: 2026-11-17
+  - url: https://vnexpress.net/tien-vao-chung-khoan-thap-nhat-mot-thang-5145326.html
+    title: VnExpress – Tiền vào chứng khoán thấp nhất một tháng (phiên 16/11/2026)
+    accessed: 2026-11-17
+  - url: https://www.tinnhanhchungkhoan.vn/nha-dau-tu-nuoc-ngoai-mua-manh-vix-tiep-tuc-ban-ra-fpt-trong-phien-1311-post401387.html
+    title: Đầu tư Chứng khoán – Khối ngoại phiên 13/11/2026
+    accessed: 2026-11-17
+  - url: https://vnexpress.net/chung-khoan-xanh-vo-do-long-5144356.html
+    title: VnExpress – Bài phiên 13/11/2026
+    accessed: 2026-11-17
+  - url: https://vnexpress.net/con-gai-chu-tich-thep-nam-kim-muon-mua-5-trieu-co-phieu-5144864.html
+    title: VnExpress – Con gái Chủ tịch Thép Nam Kim muốn mua 5 triệu cổ phiếu
+    accessed: 2026-11-17
+  - url: https://vneconomy.vn/tig-giam-san-con-gai-chu-tich-hoi-dong-quan-tri-dang-ky-mua-5-trieu-co-phieu.htm
+    title: VnEconomy – TIG giảm sàn, con gái Chủ tịch HĐQT đăng ký mua 5 triệu cổ phiếu
+    accessed: 2026-11-17
+  - url: https://cafef.vn/du-lieu/Ajax/PageNew/DataHistory/PriceHistory.ashx?Symbol=VNINDEX&StartDate=&EndDate=&PageIndex=1&PageSize=5
+    title: CafeF – Dữ liệu lịch sử giá VNINDEX (5 phiên gần nhất)
+    accessed: 2026-11-17
+  - url: https://www.vietnamplus.vn/vn-index-giam-hon-10-diem-nhom-dau-khi-gay-ap-luc-len-thi-truong-post1148921.vnp
+    title: VietnamPlus (TTXVN) – Bài phiên 17/11/2026
+    accessed: 2026-11-17
+  - url: https://vnexpress.net/gan-2-5-von-lpbank-sang-tay-thoa-thuan-trong-mot-phien-5145737.html
+    title: VnExpress – Gần 2,5% vốn LPBank sang tay thỏa thuận trong một phiên
+    accessed: 2026-11-17
+  - url: https://congluan.vn/chung-khoan-hom-nay-17112026-vn-index-giam-hon-10-diem-nhom-ngan-hang-gay-ap-luc-lon-post367828.html
+    title: Công Luận – Chứng khoán hôm nay 17/11/2026
+    accessed: 2026-11-17
+  - url: https://thuongtruong.com.vn/news/vn-index-mat-hon-10-diem-nhom-dau-khi-va-ngan-hang-gay-suc-ep-172092.html
+    title: Thương Trường – VN-Index mất hơn 10 điểm, nhóm dầu khí và ngân hàng gây sức ép (tạp chí, có tổng hợp số từ nguồn khác)
+    accessed: 2026-11-17
+  - url: https://www.vietnamplus.vn/vn-index-mat-hon-23-diem-khoi-ngoai-ban-rong-nghin-ty-dong-post1149177.vnp
+    title: VietnamPlus (TTXVN) – VN-Index mất hơn 23 điểm, khối ngoại bán ròng nghìn tỷ đồng (phiên 18/11/2026)
+    accessed: 2026-11-18
+  - url: https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html
+    title: VnExpress – Công ty chứng khoán thứ ba có vốn điều lệ vượt mốc tỷ USD (báo dẫn lại, chưa mở thông báo gốc)
+    accessed: 2026-11-18
 confidence: trung bình
 ---
 
@@ -134,31 +173,34 @@ Ghi chú về dữ liệu: bảng chỉ báo của backend (`knowledge/_du-lieu/
 | VN-Index | 1.688,79 | -0,83 điểm (-0,05%) | [1][3][4][5][6][9][11]; VnExpress: sát 1.689 điểm, giảm hơn 0,8 điểm [8] |
 | VN30 | 1.786,84 | -0,09% [7] | [5][14] |
 | HNX-Index | 234,59 | -4,35 điểm (-1,82%) | [1][3][4][5] |
-| UPCoM-Index | 119,14 | -1,22 điểm (-1,01%) | [1][4]; Thời báo Ngân hàng: -1,01% [7]. Tuổi Trẻ ghi 119,46 điểm [5], lệch với hai nguồn trên (có đề xuất chờ duyệt) |
+| UPCoM-Index | 119,14 | -1,22 điểm (-1,01%) | [1][4]; Thời báo Ngân hàng: -1,01% [7]. Tuổi Trẻ ghi 119,46 điểm [5], lệch với hai nguồn trên |
 
 - Tuần 16–20/11/2026: VN-Index giảm 46,14 điểm (-2,66%), bốn phiên giảm liên tiếp, mất mốc 1.700 điểm [1][6][7][8]. Thời báo Ngân hàng và VnExpress ghi đây là mức thấp nhất kể từ cuối tháng 7 [7][8].
 - Trong phiên VN-Index có lúc xuống khoảng 1.666 điểm (giảm hơn 23 điểm) trước khi hồi vào buổi chiều [1][6][7].
 
 **Thanh khoản (phiên 20/11/2026)**
 
-- HOSE: khoảng 736,6 triệu đơn vị, khoảng 15.933 tỷ đồng, tăng khoảng 13% về khối lượng và 6% về giá trị so với phiên trước (Đầu tư Chứng khoán [1]; Công Luận: 15.933 tỷ đồng [6]; VnExpress: hơn 15.900 tỷ đồng, tăng 6% [8]; Người Đưa Tin: gần 16.000 tỷ đồng, tăng 6,16% [9]). Các bài không ghi rõ có gồm giao dịch thoả thuận hay không. Tuổi Trẻ ghi khoảng 15.633 tỷ đồng [5], lệch với các nguồn trên (có đề xuất chờ duyệt).
-- Khớp lệnh HOSE, HNX và tổng toàn thị trường: chưa có nguồn xác nhận (có đề xuất chờ duyệt).
+- HOSE: khoảng 736,6 triệu đơn vị, khoảng 15.933 tỷ đồng, tăng khoảng 13% về khối lượng và 6% về giá trị so với phiên trước (Đầu tư Chứng khoán [1]; Công Luận: 15.933 tỷ đồng [6]; VnExpress: hơn 15.900 tỷ đồng, tăng 6% [8]; Người Đưa Tin: gần 16.000 tỷ đồng, tăng 6,16% [9]). Các bài không ghi rõ có gồm giao dịch thoả thuận hay không. Tuổi Trẻ ghi khoảng 15.633 tỷ đồng [5], lệch với các nguồn trên.
+- HOSE, khớp lệnh: hơn 521 triệu cổ phiếu, hơn 10.680 tỷ đồng (BNEWS). HNX, khớp lệnh: hơn 51 triệu cổ phiếu, hơn 650 tỷ đồng (BNEWS). Toàn thị trường: khoảng 819,8 triệu cổ phiếu, khoảng 16.998 tỷ đồng (Hà Nội Mới; Hà Nội Mới ghi HOSE khoảng 10.900 tỷ đồng, không rõ phạm vi).
 
 **Khối ngoại (phiên 20/11/2026)**
 
-- HOSE: bán ròng khoảng 841 tỷ đồng, phiên bán ròng thứ tư liên tiếp (Đầu tư Chứng khoán: 840,7 tỷ đồng, hơn 32 triệu đơn vị [2]; BNEWS: hơn 841 tỷ đồng [3]; Hà Nội Mới: khoảng 841 tỷ đồng [4]; VnExpress: khoảng 843 tỷ đồng [8]). Các nguồn không ghi rõ có gồm thoả thuận hay không. Tuổi Trẻ ghi bán ròng khoảng 415 tỷ đồng [5], lệch với các nguồn trên (có đề xuất chờ duyệt).
+- HOSE: bán ròng khoảng 841 tỷ đồng, phiên bán ròng thứ tư liên tiếp (Đầu tư Chứng khoán: 840,7 tỷ đồng, hơn 32 triệu đơn vị [2]; BNEWS: hơn 841 tỷ đồng [3]; Hà Nội Mới: khoảng 841 tỷ đồng [4]; VnExpress: khoảng 843 tỷ đồng [8]). Các nguồn không ghi rõ có gồm thoả thuận hay không. Tuổi Trẻ ghi bán ròng khoảng 415 tỷ đồng [5], lệch với các nguồn trên.
 - Toàn thị trường: bán ròng khoảng 894–895 tỷ đồng (Đầu tư Chứng khoán: 894,25 tỷ đồng, 35,58 triệu đơn vị, giảm 10,7% về giá trị so với phiên 19/11 [2]; Hà Nội Mới: khoảng 895 tỷ đồng [4]; Người Đưa Tin: gần 900 tỷ đồng [9]).
 - Bán ròng nhiều nhất trên HOSE: FPT khoảng 157–159 tỷ đồng (Đầu tư Chứng khoán: 159 tỷ đồng [2]; Hà Nội Mới: khoảng 158 tỷ đồng [4]; Người Đưa Tin: 156,98 tỷ đồng [9]); ACB khoảng 146 tỷ đồng (145,9 [2]; 145,91 [9]; khoảng 146 [4]); HDB khoảng 104 tỷ đồng (104 [2]; 104,01 [9]; 103,9 [4]).
 - Mua ròng nhiều nhất trên HOSE: POW khoảng 152 tỷ đồng (Đầu tư Chứng khoán: 152 tỷ đồng, 11,33 triệu đơn vị [2]; Người Đưa Tin: 152,07 tỷ đồng [9]; Hà Nội Mới, Tuổi Trẻ: khoảng 152 tỷ đồng [4][5]).
 - HNX: bán ròng khoảng 46,5 tỷ đồng (Đầu tư Chứng khoán: 46,5 tỷ đồng [2]; BNEWS: 46,48 tỷ đồng [3]; Hà Nội Mới: khoảng 47 tỷ đồng [4]); CEO là mã bị bán ròng nhiều nhất, IDC được mua ròng [2][4].
 - UPCoM: bán ròng khoảng 7 tỷ đồng (Đầu tư Chứng khoán: 7,08 tỷ đồng [2]; Hà Nội Mới: khoảng 7 tỷ đồng [4]); ACV bị bán ròng nhiều nhất, OIL được mua ròng [2][4]. Bài của Đầu tư Chứng khoán ghi khối lượng mua ròng 143.400 đơn vị nhưng giá trị bán ròng, hai số không khớp chiều [2].
-- Giá trị của các mã khác, khối ngoại cả tuần: chưa có nguồn xác nhận (có đề xuất chờ duyệt).
+- HOSE: khối ngoại mua 61,8 triệu đơn vị, 1.412,3 tỷ đồng; bán 93,85 triệu đơn vị, khoảng 2.253 tỷ đồng (Đầu tư Chứng khoán; bài ghi đơn vị là 'đồng', có thể lỗi).
+- HOSE – bán ròng khác: MBB khoảng 57,5 tỷ đồng, SHB khoảng 50 tỷ đồng (Hà Nội Mới). Mua ròng khác: TCH 34,96 tỷ đồng (Người Đưa Tin); Hà Nội Mới nêu TCH, MSN, TCX, TCB được mua ròng.
+- HNX: CEO bị bán ròng 22,14 tỷ đồng, IDC được mua ròng 11,21 tỷ đồng. UPCoM: ACV bị bán ròng 7,17 tỷ đồng, OIL được mua ròng 4,4 tỷ đồng (Đầu tư Chứng khoán).
+- Cả tuần 16–20/11: khối ngoại bán ròng khoảng 3.281 tỷ đồng trên HOSE, tập trung ở FPT, VCB, ACB; mua ròng MSN, POW, KDH (Công Luận).
 
 **Độ rộng (phiên 20/11/2026)**
 
 - HOSE: 96 mã tăng, 217 mã giảm [1][6][7] (VnExpress: 206 mã giảm, số mã giảm gấp đôi số mã tăng [8]).
 - Rổ VN30: 13 mã tăng, 13 mã giảm [3][7] (VnExpress: số mã tăng và giảm bằng nhau [8]).
-- Toàn thị trường, HNX và số mã đứng giá: các nguồn mâu thuẫn, chưa có nguồn xác nhận (có đề xuất chờ duyệt).
+- Toàn thị trường: BNEWS ghi 446 mã giảm, 243 mã tăng; Tuổi Trẻ ghi 418 mã giảm, 230 mã tăng, 238 mã đứng giá (không ghi phạm vi). Rổ VN30: 4 mã đứng giá (BNEWS).
 
 **Nhóm ngành và cổ phiếu dẫn dắt (phiên 20/11/2026)**
 
@@ -167,7 +209,10 @@ Ghi chú về dữ liệu: bảng chỉ báo của backend (`knowledge/_du-lieu/
 - Ngân hàng gây áp lực: MBB -2,41%, ACB -2,24%, VPB -1,91% [4][9]; VnExpress nêu VCB, MBB, VPB, BID, ACB, HDB là các mã gây áp lực giảm [8].
 - TCH +4,91% [3][9]; PVD +3,51% [9][10]; dầu khí, bất động sản, chứng khoán có nhiều mã tăng [8][10].
 - Công nghệ thông tin và công nghiệp nằm trong nhóm ngành giảm mạnh [3][8].
-- Điểm ảnh hưởng của từng nhóm mã, mức biến động của chỉ số ngành và các mã khác: chưa có nguồn xác nhận (có đề xuất chờ duyệt).
+- Theo BNEWS: VCB, MBB, VPB, BID lấy đi hơn 3,56 điểm của VN-Index; VIC, TCB, STB, GAS đóng góp tổng 5,33 điểm. Dịch vụ truyền thông -1,55%, công nghệ thông tin -1,49%, công nghiệp -1,13%; bất động sản tăng mạnh nhất.
+- Theo Tuổi Trẻ: VIC đóng góp khoảng 3,04 điểm; THD kéo HNX-Index giảm khoảng 1,47 điểm.
+- GAS +1,73%, VHM về tham chiếu (Thời báo Ngân hàng); 142 mã trên HOSE giảm quá 1% (Thời báo Ngân hàng).
+- Theo Người Đưa Tin: FPT -1,53%, VND +3,89%, BID -1,64%, HDB -1,58%, VCB -1,18%, NVL -3,11%, KDH -2,53%, TIN -11,77%, MSR -3,9%, PNJ -2,17%, HDC +2,8%.
 
 **Vị trí VN-Index so với MA20 và MA50 (phiên 20/11/2026)**
 
@@ -179,17 +224,134 @@ Ghi chú về dữ liệu: bảng chỉ báo của backend (`knowledge/_du-lieu/
 
 - **SAB (Sabeco, HOSE) – tạm ứng cổ tức 2026 bằng tiền** (tin đã ghi từ phiên 16/11, vẫn còn hiệu lực): tỷ lệ 30% mệnh giá (3.000 đồng/cổ phiếu); ngày giao dịch không hưởng quyền 28/12/2026; ngày đăng ký cuối cùng 29/12/2026; ngày thanh toán dự kiến 02/02/2027 [32][33][34]. VnEconomy (đăng 07:35 ngày 17/11/2026) dẫn thông báo của HOSE [32]; VietTimes ghi nguồn là Sabeco [33]. Đọc qua báo; chưa mở được văn bản gốc của HOSE, VSDC hoặc doanh nghiệp (ngày 2026-11-20 đã thử VSDC: chưa tìm được trang thông báo).
 - **HPX (Đầu tư Hải Phát, HOSE) – đăng ký mua của người có liên quan** (tin đã ghi từ phiên 17/11): bà Nguyễn Thị Bích Ngọc, vợ ông Lê Quang Vinh (thành viên độc lập HĐQT), **đăng ký mua** 2 triệu cổ phiếu HPX từ 20/11 đến 18/12/2026; Vietstock ghi bà chưa sở hữu cổ phiếu nào và dẫn thông báo ngày 16/11 của doanh nghiệp [35][36]. Thời gian giao dịch đăng ký bắt đầu từ phiên 20/11. Đây là đăng ký, chưa phải kết quả giao dịch. Đọc qua báo, chưa mở được báo cáo gốc.
-- Tin khác (giao dịch thoả thuận LPB phiên 19/11): chưa có nguồn xác nhận (có đề xuất chờ duyệt).
+- **LPB (LPBank, HOSE) – giao dịch thoả thuận**: phiên 19/11/2026 có hơn 67,5 triệu cổ phiếu LPB được giao dịch thoả thuận, tổng giá trị hơn 2.161 tỷ đồng; từ đầu tháng 11 đến 20/11, tổng giá trị giao dịch thoả thuận LPB vượt 23.011 tỷ đồng (Tuổi Trẻ). Chưa rõ bên mua, bên bán.
+- **NKG (Thép Nam Kim, HOSE)**: bà Hồ Uyển Nhi, con gái ông Hồ Minh Quang (Chủ tịch HĐQT), **đăng ký mua** 5 triệu cổ phiếu NKG từ 18/11 đến 16/12 (năm 2026 theo ngữ cảnh), hiện không nắm giữ cổ phiếu nào. Đây là đăng ký, chưa phải kết quả giao dịch. [42]
+- **TIG (Tập đoàn Đầu tư Thăng Long, HNX)**: bà Nguyễn Hồ Hương Ly, con gái ông Nguyễn Phúc Long (Chủ tịch HĐQT), **đăng ký mua** 5 triệu cổ phiếu TIG từ 15/11 đến 15/12/2026 qua khớp lệnh hoặc thoả thuận, mục đích đầu tư tài chính cá nhân; đang nắm 500.000 cổ phiếu. Đây là đăng ký, chưa phải kết quả giao dịch. [43]
 
 ### Lịch sử ngắn 5 phiên
 
 | Ngày phiên | VN-Index đóng cửa (điểm) | Thay đổi % | Giá trị giao dịch HOSE | Khối ngoại ròng HOSE |
 |---|---|---|---|---|
 | 19/11/2026 | 1.689,62 [11][16] | -0,79% [11][16] | khoảng 15.000 tỷ đồng (Đầu tư Chứng khoán: 15.008 tỷ đồng, 652,9 triệu đơn vị, trong đó thoả thuận 197,2 triệu đơn vị [16]; VnExpress: hơn 15.000 tỷ đồng, giảm 14% [18]) | bán ròng khoảng 995–997 tỷ đồng (Đầu tư Chứng khoán: 996,5 tỷ đồng [17]; VnExpress: khoảng 995 tỷ đồng [18]) |
-| 18/11/2026 | 1.703,01 [11][19][21][22] | -1,37% [11][19][21] | khoảng 17.454 tỷ đồng, gồm thoả thuận khoảng 6.300 tỷ đồng (Đầu tư Chứng khoán: 17.453,8 tỷ đồng [19]; Công Luận: 17.454 tỷ đồng [22]); số CafeF khác (có đề xuất chờ duyệt ngày 2026-11-18) | bán ròng khoảng 1.114 tỷ đồng (Đầu tư Chứng khoán: 1.113,9 [20]; Vietstock: 1.113,55 [21]; VnExpress: hơn 1.110 [23]) |
+| 18/11/2026 | 1.703,01 [11][19][21][22] | -1,37% [11][19][21] | khoảng 17.454 tỷ đồng, gồm thoả thuận khoảng 6.300 tỷ đồng (Đầu tư Chứng khoán: 17.453,8 tỷ đồng [19]; Công Luận: 17.454 tỷ đồng [22]); số CafeF khác (xem Bổ sung đã duyệt – phiên 18/11/2026) | bán ròng khoảng 1.114 tỷ đồng (Đầu tư Chứng khoán: 1.113,9 [20]; Vietstock: 1.113,55 [21]; VnExpress: hơn 1.110 [23]) |
 | 17/11/2026 | 1.726,72 [11][24][26] | -0,59% [11][24] | khoảng 14.900–15.000 tỷ đồng (Đầu tư Chứng khoán: 14.961,5 tỷ đồng [24]; Sài Gòn Giải Phóng: gần 15.000 tỷ đồng [26]), phạm vi chưa rõ; số CafeF khác (có đề xuất chờ duyệt) | bán ròng khoảng 359 tỷ đồng (Đầu tư Chứng khoán: 359,4 tỷ đồng [25]; Sài Gòn Giải Phóng: gần 360 tỷ đồng [26]) |
 | 16/11/2026 | 1.736,89 [11][27][29][30] | +0,11% [11][27][29] | chưa có nguồn xác nhận (có đề xuất chờ duyệt) | mua ròng khoảng 21 tỷ đồng [28][29][30] |
-| 13/11/2026 | 1.734,93 [11][31] | +0,01% [11][31] | chưa có nguồn xác nhận (có đề xuất chờ duyệt) | chưa có nguồn xác nhận (có đề xuất chờ duyệt) |
+| 13/11/2026 | 1.734,93 [11][31] | +0,01% [11][31] | CafeF: khớp lệnh 9.820,08 tỷ + thoả thuận 5.003,25 tỷ đồng; Đầu tư Chứng khoán: 15.137,8 tỷ đồng (thoả thuận riêng 5.365 tỷ đồng); VnExpress: hơn 15.100 tỷ đồng [12][31][41] | Đầu tư Chứng khoán: mua ròng 320,6 tỷ đồng; VnExpress: mua ròng khoảng 311 tỷ đồng [40][41] |
+| 12/11/2026 | 1.734,75 | -0,70% | CafeF: khớp lệnh 10.395,61 tỷ + thoả thuận 4.292,42 tỷ đồng | chưa có nguồn xác nhận |
+| 11/11/2026 | 1.746,90 | +0,22% | CafeF: khớp lệnh 9.998,10 tỷ + thoả thuận 3.522,03 tỷ đồng | chưa có nguồn xác nhận |
+| 10/11/2026 | 1.743,07 | +1,68% | CafeF: khớp lệnh 13.119,51 tỷ + thoả thuận 3.735,44 tỷ đồng | chưa có nguồn xác nhận |
+| 09/11/2026 | 1.714,32 | -0,64% | CafeF: khớp lệnh 10.206,26 tỷ + thoả thuận 3.350,29 tỷ đồng | chưa có nguồn xác nhận |
+
+Ghi chú: các dòng 09/11–12/11 và hai ô giá trị giao dịch, khối ngoại của dòng 13/11 lấy từ đề xuất đã được người dùng duyệt ngày 2026-11-20 (CafeF [12]; Đầu tư Chứng khoán [31][40]; VnExpress [41]).
+
+### Bổ sung đã duyệt – phiên 16/11/2026
+
+Các số dưới đây lấy từ đề xuất chờ duyệt ngày 2026-11-17, đã được người dùng duyệt ngày 2026-11-20; phần lớn chỉ có một nguồn hoặc các nguồn còn lệch nhau.
+
+**Chỉ số**
+
+| Chỉ số | Đóng cửa (điểm) | Thay đổi | Nguồn |
+|---|---|---|---|
+| VN30 | 1.844,25 | 'dừng sát mốc tham chiếu' (Vietstock không nêu mức thay đổi) | [Vietstock Daily 17/11/2026] [38] |
+| UPCoM-Index | 122,13 | +0,74 điểm (+0,61%) | [27] |
+
+**Thanh khoản**
+
+- Đầu tư Chứng khoán: HOSE khoảng 526,1 triệu đơn vị, 11.877 tỷ đồng; trong đó thoả thuận khoảng 113,8 triệu đơn vị, 3.116,2 tỷ đồng (bài không nói rõ con số tổng có gồm thoả thuận hay không). [27]
+- Vietstock (Nhịp đập Thị trường 16/11): khớp lệnh HOSE hơn 405 triệu cổ phiếu, hơn 8,5 nghìn tỷ đồng; Vietstock Daily: khối lượng HOSE gần 406 triệu đơn vị, giảm 10,5%. [30][38]
+- CafeF (dữ liệu lịch sử VNINDEX): khớp lệnh 453.072.100 cổ phiếu, 8.566,75 tỷ đồng; thoả thuận 120.199.956 cổ phiếu, 3.336,46 tỷ đồng (tổng tự tính 11.903,21 tỷ đồng). [12]
+- VnExpress: giá trị giao dịch HOSE 11.900 tỷ đồng (không ghi phạm vi); Viet Nam News: gần 12 nghìn tỷ đồng. [39][29]
+- HNX: khớp lệnh hơn 36 triệu cổ phiếu, hơn 448 tỷ đồng (Vietstock); Đầu tư Chứng khoán ghi khoảng 39,4 triệu đơn vị, 501 tỷ đồng, trong đó thoả thuận hơn 3 triệu đơn vị, khoảng 53 tỷ đồng. UPCoM: hơn 14 triệu đơn vị, 282 tỷ đồng; thoả thuận 1,4 triệu đơn vị, 54,14 tỷ đồng (Đầu tư Chứng khoán). [30][27]
+
+**Khối ngoại**
+
+- UPCoM: bán ròng 0,8 tỷ đồng; toàn thị trường mua ròng khoảng 12,5 tỷ đồng (Đầu tư Chứng khoán). Mã bán ròng nhiều nhất trên HOSE: FPT, 3,27 triệu cổ phiếu, 163,2 tỷ đồng (Đầu tư Chứng khoán). Các mã mua ròng khác trên HOSE: MSN 62,32 tỷ đồng, VNM 40,74 tỷ đồng (Vietstock). HNX: CEO được mua ròng nhiều nhất, 2,96 tỷ đồng (Đầu tư Chứng khoán). [28][30]
+- KDH được khối ngoại mua ròng 41,27 tỷ đồng (Vietstock). [30]
+
+**Độ rộng**
+
+- Rổ VN30: 5 mã đứng giá (Vietstock). [30]
+
+**Nhóm ngành và cổ phiếu dẫn dắt**
+
+- Nhóm bất động sản +1,31% (Vietstock). [30]
+- Nhóm tác động lên VN-Index theo Vietstock: VIC, MCH, DMX, LPB đóng góp tổng khoảng 11,31 điểm; VCB, VPB, TCB, CTG lấy đi tổng khoảng 3,12 điểm. [30]
+
+### Bổ sung đã duyệt – phiên 17/11/2026
+
+Các số dưới đây lấy từ đề xuất chờ duyệt ngày 2026-11-17, đã được người dùng duyệt ngày 2026-11-20; phần lớn chỉ có một nguồn hoặc các nguồn còn lệch nhau.
+
+**Chỉ số**
+
+| Chỉ số | Đóng cửa (điểm) | Thay đổi | Nguồn |
+|---|---|---|---|
+| VN30 | 1.837,13 | -7,12 điểm (-0,39%) | [CafeF VN30INDEX] [14]; TTXVN: 'giảm hơn 7 điểm' [45] |
+| UPCoM-Index | 122,5 | +0,37 điểm (+0,30%) | [Đầu tư Chứng khoán] [24] |
+
+**Thanh khoản**
+
+- Đầu tư Chứng khoán: HOSE khoảng 636,2 triệu đơn vị, 14.961,5 tỷ đồng; giao dịch thoả thuận 5.362 tỷ đồng, trong đó khoảng 74,3 triệu cổ phiếu LPB, gần 2.594 tỷ đồng. [24]
+- CafeF (dòng VNINDEX ngày 17/11): khớp lệnh 436.923.400 cổ phiếu, 9.579,68 tỷ đồng; thoả thuận 186.369.043 cổ phiếu, 5.039,16 tỷ đồng (tổng tự tính 14.618,84 tỷ đồng, thấp hơn khoảng 343 tỷ đồng so với số 14.961 tỷ đồng của các báo). [44]
+- CafeF (dòng VN30INDEX ngày 17/11): khớp lệnh 5.339,93 tỷ đồng, thoả thuận 2.997,8 tỷ đồng; TTXVN: giá trị giao dịch VN30 hơn 8.400 tỷ đồng, tăng 28%. [14][45]
+- Sài Gòn Giải Phóng: tổng HOSE và HNX khoảng 15.600 tỷ đồng, tăng khoảng 2.700 tỷ đồng so với phiên trước. [26]
+
+**Khối ngoại**
+
+- Toàn thị trường: bán ròng 382,9 tỷ đồng (khoảng 7,3 triệu đơn vị). HNX: bán ròng 13,08 tỷ đồng (mua ròng 0,35 triệu đơn vị về khối lượng); mua ròng nhiều nhất SHS 15,05 tỷ đồng, bán ròng nhiều nhất PVS 18,82 tỷ đồng. UPCoM: bán ròng 10,42 tỷ đồng; mua ròng nhiều nhất TIN 1,03 tỷ đồng, bán ròng nhiều nhất ACV 5,62 tỷ đồng (Đầu tư Chứng khoán). [25]
+- VCB bị bán ròng hơn 102 tỷ đồng (TTXVN). [45]
+- Ghi chú phía khác: VnExpress viết khối ngoại bán ròng "tập trung ở MBB, TCB và FPT"; Sài Gòn Giải Phóng nêu FPT, VCB, MBB là các mã bị bán ròng mạnh nhất; Công Luận ghi tổng bán ròng khoảng 352 tỷ đồng. [46][26][47]
+
+**Độ rộng**
+
+- HOSE: 62 mã đứng giá. HNX: 57 mã đứng giá (Sài Gòn Giải Phóng). [26]
+
+**Nhóm ngành và cổ phiếu dẫn dắt**
+
+- Theo Thương Trường: VCB lấy đi khoảng 1,88 điểm, GAS khoảng 1,31 điểm, BID khoảng 1,03 điểm của VN-Index. Biến động ngành: năng lượng -3,84%, vật liệu cơ bản -1,84%, công nghệ -1,79%, công nghiệp -1,5%, tài chính -0,69%, bất động sản -0,31%. [48]
+
+**Tin doanh nghiệp – LPB (giao dịch thoả thuận ngày 17/11/2026)**
+
+- Giá bình quân khoảng 34.600 đồng/cổ phiếu, gần giá sàn, qua khoảng 30 lệnh, mỗi lệnh 2–3 triệu cổ phiếu; luỹ kế từ đầu tháng hơn 410 triệu cổ phiếu, gần 14% vốn, được giao dịch thoả thuận (VnExpress). Giá trị thoả thuận LPB gần 2.594 tỷ đồng (Đầu tư Chứng khoán). [46][24]
+
+### Bổ sung đã duyệt – phiên 18/11/2026
+
+Các số dưới đây lấy từ đề xuất chờ duyệt ngày 2026-11-18, đã được người dùng duyệt ngày 2026-11-20; phần lớn chỉ có một nguồn hoặc các nguồn còn lệch nhau.
+
+**Chỉ số**
+
+| Chỉ số | Đóng cửa (điểm) | Thay đổi | Nguồn |
+|---|---|---|---|
+| VN30 | 1.806,54 | -30,59 điểm (-1,67%) | [CafeF VN30INDEX] [14] |
+| UPCoM-Index | 121,12 | -1,38 điểm (-1,13%) | [Đầu tư Chứng khoán] [19] |
+
+- Hợp đồng tương lai VN30 đáo hạn ngày 19/11 giảm 22,3 điểm xuống 1.815 điểm (Đầu tư Chứng khoán). [19]
+
+**Thanh khoản**
+
+- Đầu tư Chứng khoán: HOSE tổng 771,8 triệu đơn vị; HNX tổng 54,9 triệu đơn vị, 702,6 tỷ đồng, trong đó thoả thuận 7 triệu đơn vị, 114 tỷ đồng; UPCoM 26,9 triệu đơn vị, 615,2 tỷ đồng, trong đó thoả thuận 14 triệu đơn vị, 448,5 tỷ đồng. [19]
+- CafeF (dòng VNINDEX ngày 18/11): khớp lệnh 529.830.900 cổ phiếu, 11.137,1 tỷ đồng; thoả thuận 224.683.276 cổ phiếu, 6.029,22 tỷ đồng (tổng tự tính 17.166,32 tỷ đồng), khác với Đầu tư Chứng khoán (thoả thuận 241 triệu đơn vị, 6.296,7 tỷ đồng; tổng 17.453,8 tỷ đồng). [11][19]
+
+**Khối ngoại**
+
+- Toàn thị trường: bán ròng 1.152,3 tỷ đồng, gần 41,39 triệu đơn vị (Đầu tư Chứng khoán). TTXVN ghi tổng bán ròng trên hai sàn HOSE và HNX hơn 1.140 tỷ đồng. [20][49]
+- UPCoM: bán ròng 11,14 tỷ đồng (244.900 đơn vị); bán ròng mạnh nhất MSR 7,1 tỷ đồng (Đầu tư Chứng khoán). [20]
+- HOSE – mua ròng nhiều nhất: KDH 41,4 tỷ đồng, FRT 21,8 tỷ đồng, BSR 21 tỷ đồng; bán ròng VHM 64 tỷ đồng; bán ròng nhiều nhất theo khối lượng: SHB 5,9 triệu đơn vị (62,56 tỷ đồng), HPG 2,49 triệu đơn vị (51,7 tỷ đồng), VIX 2,5 triệu đơn vị (31,78 tỷ đồng) (Đầu tư Chứng khoán). [20]
+- HNX: mua ròng mạnh nhất SHS 7,51 tỷ đồng (Đầu tư Chứng khoán); bán ròng CEO 8,12 tỷ đồng, IDC 1,83 tỷ đồng, MST 1,67 tỷ đồng (Vietstock; TTXVN cùng số). [20][21][49]
+
+**Độ rộng**
+
+- HNX: 25 mã tăng, 113 mã giảm (Đầu tư Chứng khoán). Toàn thị trường: 539 mã giảm, 172 mã tăng (Vietstock; TTXVN cùng số). [19][21][49]
+
+**Nhóm ngành và cổ phiếu dẫn dắt**
+
+- Theo Vietstock (TTXVN cùng số): bình quân các ngành giảm 1,44%; dịch vụ truyền thông -3,28% (VGI -3,77%, VNZ -3,96%), công nghệ thông tin -2,99%, nguyên vật liệu -2,65% (MSR -8,35%, DPM -3,66%, GVR -2,86%). HNX: THD -8,38%, DTK -6,36%, PVS -3,24%, NVB -2% là các mã kéo HNX-Index giảm. [21][49]
+- Theo Đầu tư Chứng khoán: VIC và VHM lấy đi khoảng 6,5 điểm; năm ngân hàng VCB, VPB, LPB, BID, TCB lấy đi khoảng 6,4 điểm; BID -1,94%, TCB -1,89%; POW +1,13%. [19]
+- Theo Công Luận: SAB +1,42%, HVN +0,91%; nhóm du lịch và giải trí là nhóm duy nhất đóng góp dương. [22]
+- Theo VnExpress: SHB giảm hơn 3%; STB, TPB, VIB giảm hơn 2%; ORS giảm hơn 4%; VND, VCI, VPX, VIX giảm hơn 1,5%; nhóm chứng khoán giảm mạnh. [23]
+
+**Tin doanh nghiệp**
+
+- **VPX (Chứng khoán VPBank – VPBankS, HOSE) – cổ phiếu thưởng**: dự kiến phát hành 843,75 triệu cổ phiếu thưởng tỷ lệ 45% (100:45) cho cổ đông hiện hữu, nâng vốn điều lệ từ 18.750 tỷ đồng lên khoảng 27.187 tỷ đồng; ngày chốt quyền 30/11/2026 (VnExpress, đăng 18/11/2026). Đọc qua báo, chưa mở được thông báo gốc của doanh nghiệp, HOSE hoặc VSDC. [50]
 
 ## Nhận định
 
@@ -263,9 +425,26 @@ Ghi chú: mức chắc chắn của mỗi mã không cao hơn `trung bình` vì 
 35. [Vietstock – Vợ Thành viên độc lập HĐQT Hải Phát muốn gom 2 triệu cp (đăng 17/11/2026, 10:30)](https://vietstock.vn/2026/11/vo-thanh-vien-doc-lap-hdqt-hai-phat-muon-gom-2-trieu-cp-khi-thi-gia-dang-thap-ky-luc-739-1515331.htm) — truy cập 2026-11-20
 36. [CafeF – Người thân lãnh đạo Hải Phát muốn mua 2 triệu cổ phiếu HPX](https://cafef.vn/nguoi-than-lanh-dao-hai-phat-muon-mua-2-trieu-co-phieu-hpx-188261117113311174.chn) — truy cập 2026-11-17
 37. [VSDC – Tin nghiệp vụ với Tổ chức đăng ký chứng khoán (danh sách thông báo ngày 20/11/2026)](https://vsdc.vn/alo/-f-_bsBS4BBXga52z2eexg) — truy cập 2026-11-20
+38. [Vietstock – Vietstock Daily 17/11/2026: Chưa thoát thế giằng co?](https://vietstock.vn/2026/11/vietstock-daily-17112026-chua-thoat-the-giang-co-1636-1515191.htm) — truy cập 2026-11-17
+39. [VnExpress – Tiền vào chứng khoán thấp nhất một tháng (phiên 16/11/2026)](https://vnexpress.net/tien-vao-chung-khoan-thap-nhat-mot-thang-5145326.html) — truy cập 2026-11-17
+40. [Đầu tư Chứng khoán – Khối ngoại phiên 13/11/2026](https://www.tinnhanhchungkhoan.vn/nha-dau-tu-nuoc-ngoai-mua-manh-vix-tiep-tuc-ban-ra-fpt-trong-phien-1311-post401387.html) — truy cập 2026-11-17
+41. [VnExpress – Bài phiên 13/11/2026](https://vnexpress.net/chung-khoan-xanh-vo-do-long-5144356.html) — truy cập 2026-11-17
+42. [VnExpress – Con gái Chủ tịch Thép Nam Kim muốn mua 5 triệu cổ phiếu (đăng 15/11/2026)](https://vnexpress.net/con-gai-chu-tich-thep-nam-kim-muon-mua-5-trieu-co-phieu-5144864.html) — truy cập 2026-11-17 (báo dẫn lại; chưa đọc báo cáo gốc trên hệ thống công bố thông tin của HOSE)
+43. [VnEconomy – TIG giảm sàn, con gái Chủ tịch HĐQT đăng ký mua 5 triệu cổ phiếu (đăng 17/11/2026)](https://vneconomy.vn/tig-giam-san-con-gai-chu-tich-hoi-dong-quan-tri-dang-ky-mua-5-trieu-co-phieu.htm) — truy cập 2026-11-17 (báo dẫn lại; chưa đọc báo cáo gốc trên hệ thống công bố thông tin của HNX)
+44. [CafeF – Dữ liệu lịch sử giá VNINDEX, 5 phiên gần nhất](https://cafef.vn/du-lieu/Ajax/PageNew/DataHistory/PriceHistory.ashx?Symbol=VNINDEX&StartDate=&EndDate=&PageIndex=1&PageSize=5) — truy cập 2026-11-17
+45. [VietnamPlus (TTXVN) – Bài phiên 17/11/2026](https://www.vietnamplus.vn/vn-index-giam-hon-10-diem-nhom-dau-khi-gay-ap-luc-len-thi-truong-post1148921.vnp) — truy cập 2026-11-17
+46. [VnExpress – Gần 2,5% vốn LPBank sang tay thỏa thuận trong một phiên](https://vnexpress.net/gan-2-5-von-lpbank-sang-tay-thoa-thuan-trong-mot-phien-5145737.html) — truy cập 2026-11-17 (bài không ghi nguồn dữ liệu)
+47. [Công Luận – Chứng khoán hôm nay 17/11/2026](https://congluan.vn/chung-khoan-hom-nay-17112026-vn-index-giam-hon-10-diem-nhom-ngan-hang-gay-ap-luc-lon-post367828.html) — truy cập 2026-11-17
+48. [Thương Trường – VN-Index mất hơn 10 điểm, nhóm dầu khí và ngân hàng gây sức ép](https://thuongtruong.com.vn/news/vn-index-mat-hon-10-diem-nhom-dau-khi-va-ngan-hang-gay-suc-ep-172092.html) — truy cập 2026-11-17 (nguồn dẫn lại: tạp chí có tổng hợp số từ nguồn khác)
+49. [VietnamPlus (TTXVN) – VN-Index mất hơn 23 điểm, khối ngoại bán ròng nghìn tỷ đồng (phiên 18/11/2026)](https://www.vietnamplus.vn/vn-index-mat-hon-23-diem-khoi-ngoai-ban-rong-nghin-ty-dong-post1149177.vnp) — truy cập 2026-11-18
+50. [VnExpress – Công ty chứng khoán thứ ba có vốn điều lệ vượt mốc tỷ USD (đăng 18/11/2026)](https://vnexpress.net/cong-ty-chung-khoan-thu-ba-co-von-dieu-le-vuot-moc-ty-usd-5145881.html) — truy cập 2026-11-18 (báo dẫn lại; chưa mở thông báo gốc của doanh nghiệp, HOSE hoặc VSDC)
 
 ## Lịch sử thay đổi
 
+- 2026-11-20 — Áp dụng tất cả các đề xuất từ chung-khoan-viet-nam--cap-nhat-cuoi-phien--2026-11-18; đã được người dùng duyệt ngày 2026-11-20.
+- 2026-11-20 — Áp dụng tất cả các đề xuất từ chung-khoan-viet-nam--cap-nhat-cuoi-phien--2026-11-17; đã được người dùng duyệt ngày 2026-11-20.
+
+- 2026-11-20 — Áp dụng tất cả các đề xuất từ chung-khoan-viet-nam--cap-nhat-cuoi-phien--2026-11-20; đã được người dùng duyệt ngày 2026-11-20.
 - 2026-11-20 — Cập nhật phiên 20/11/2026: VN-Index 1.688,79 điểm (-0,05%), nguồn Đầu tư Chứng khoán, BNEWS (TTXVN), Hà Nội Mới, Tuổi Trẻ, Công Luận, Thời báo Ngân hàng, VnExpress, Người Đưa Tin, CafeF. Thay bản tin phiên 18/11 (1.703,01 điểm, -1,37%) bằng phiên 20/11; ghi thẳng VN30 1.786,84 (Tuổi Trẻ và CafeF) và UPCoM-Index 119,14 (Đầu tư Chứng khoán và Hà Nội Mới; Tuổi Trẻ lệch, có đề xuất). Bảng 5 phiên: thêm 19/11 (1.689,62, -0,79%; HOSE khoảng 15.008 tỷ đồng; khối ngoại bán ròng khoảng 996,5 tỷ đồng; Đầu tư Chứng khoán, VnExpress, CafeF) và 18/11, bỏ dòng 12/11 và 11/11 (và hai nguồn VnBusiness chỉ dùng cho hai dòng đó). Lập lại danh sách theo dõi bằng bảng chỉ báo backend mới (cổ phiếu phiên 20/11): 9 mã đạt ≥ 3 tiêu chí (STB, VND, KDH, VJC, POW, DXG, SSI, NLG, VIC); VJC, SSI mới vào; CTG, VRE, REE rời danh sách. Tự tính SMA20/SMA50 VN-Index phiên 20/11 (1.730,85 / 1.748,04), kiểm tra chéo khớp với số backend phiên 19/11. Kiểm tra lại nguồn SAB (VnEconomy) và HPX (Vietstock): vẫn truy cập được, nội dung không đổi; chưa mở được văn bản gốc trên VSDC/HOSE. Thêm 7 đề xuất chờ duyệt tại knowledge/_cho-duyet/chung-khoan-viet-nam--cap-nhat-cuoi-phien--2026-11-20.md.
 - 2026-11-18 — Cập nhật phiên 18/11/2026: VN-Index 1.703,01 điểm (-1,37%), nguồn Đầu tư Chứng khoán, Vietstock, TTXVN (VietnamPlus), Công Luận, VnExpress, CafeF. Đẩy phiên 17/11 vào bảng 5 phiên (bỏ dòng 10/11); ghi thẳng điểm đóng cửa 11/11 và 12/11 (CafeF và VnBusiness, hai nguồn khớp nhau). Thêm ngày giao dịch không hưởng quyền của SAB 28/12/2026 (VnEconomy và VietTimes; trùng nội dung đề xuất 9 ngày 2026-11-17, đề xuất đó không tự áp dụng và không đổi status). Bỏ tin LPB (phiên 17/11) khỏi mục tin trong ngày. Danh sách theo dõi top 10 giữ nguyên vì bảng chỉ báo của backend vẫn đến phiên 16/11; chỉ cập nhật cột tin hỗ trợ/rủi ro. Kiểm tra lại các nguồn phiên 17/11 (Đầu tư Chứng khoán, Sài Gòn Giải Phóng), SAB, HPX: vẫn truy cập được, nội dung không đổi; ghi nhận CafeF đã sửa số khớp lệnh, thoả thuận của phiên 16/11 và 17/11. Thêm 8 đề xuất chờ duyệt tại knowledge/_cho-duyet/chung-khoan-viet-nam--cap-nhat-cuoi-phien--2026-11-18.md.
 - 2026-11-17 — Cập nhật phiên 17/11/2026: VN-Index 1.726,72 điểm (-0,59%), nguồn Đầu tư Chứng khoán, Sài Gòn Giải Phóng, TTXVN (VietnamPlus), Công Luận, VnExpress, CafeF. Đẩy phiên 16/11 vào bảng 5 phiên (bỏ dòng 09/11). Thêm danh sách theo dõi kỹ thuật top 10 (dữ liệu backend đến phiên 16/11). Bỏ tin NVL (phiên 16/11) khỏi mục tin trong ngày. Chi tiết phiên 16/11 (VN30, UPCoM, thanh khoản...) không còn trong file, các đề xuất 1–5, 7, 8, 10 cho phiên đó vẫn nằm chờ. Thêm 7 đề xuất chờ duyệt (11–17) tại knowledge/_cho-duyet/chung-khoan-viet-nam--cap-nhat-cuoi-phien--2026-11-17.md.

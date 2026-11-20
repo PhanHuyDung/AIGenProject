@@ -1,8 +1,9 @@
 ---
 target: knowledge/chung-khoan-viet-nam/phan-tich-ky-thuat-va-chi-bao.md
 created: 2026-11-17
-status: cho-duyet
+status: da-duyet
 proposed_by: chung-khoan-viet-nam-researcher
+decided: 2026-11-20
 ---
 
 ## Đề xuất 1 – Mức biên độ dao động giá trên HOSE, HNX, UPCoM

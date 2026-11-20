@@ -1,8 +1,9 @@
 ---
 target: knowledge/chung-khoan-viet-nam/cap-nhat-cuoi-phien.md
 created: 2026-11-20
-status: cho-duyet
+status: da-duyet
 proposed_by: chung-khoan-viet-nam-researcher
+decided: 2026-11-20
 ---
 
 ## Đề xuất 1 – Các số của Tuổi Trẻ lệch với các nguồn khác (phiên 20/11/2026)
